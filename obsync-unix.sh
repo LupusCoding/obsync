@@ -141,7 +141,7 @@ function init() {
         git_create_ignore
     fi
     git_pull
-    git_up
+    git_push
 
     out "Obsidian init $(pwd) finished"
     cd "${_call_dir}"
@@ -162,7 +162,7 @@ function sync() {
 
     vout "Fetch updates from server"
     git_pull
-    git_up
+    git_push
     
     out "Obsidian sync $(pwd) finished"
     cd "${_call_dir}"
