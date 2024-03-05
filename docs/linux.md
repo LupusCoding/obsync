@@ -5,7 +5,7 @@
 1. Open your favorite terminal.
 2. Install git, if you don't already have it. (apt/apk/pacman)
 3. Download the obsync.sh from this repository.
-4. In your favorite terminal, navigate to your download folder and use `cp obsync.sh /usr/bin/obsync`
+4. In your favorite terminal, navigate to your download folder and use `cp obsync-unix.sh /usr/bin/obsync`
 5. Make the script executable by `sudo chmod +x /usr/bin/obsync`
 6. [Create a Git public access token](./git_access_token.md)
 

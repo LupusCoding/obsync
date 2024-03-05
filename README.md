@@ -10,7 +10,7 @@ Your favorite Obsidian git synchronisation tool!
 | MacOS            | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | Windows          | :x: | :x: | :x: | :x: | :x: |
 | Android          | :x: | :x: | :x: | :x: | :x: |
-| iOS / ipadOS     | :x: | :question: | :question: | :question: | :x: |
+| iOS / ipadOS     | :x: | :x: | :x: | :x: | :x: |
 
 *:x: not implemented | :question: functionality untested | :white_check_mark: implemented and tested*
 
