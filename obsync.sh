@@ -3,7 +3,7 @@
 __name__="obsync"
 __slogan__="Your favorite obsidian git synchronisation tool!"
 __author__="Ralph Dittrich <dittrich.ralph@lupuscoding.de>"
-__version__='1.0.0'
+__version__='0.1.0'
 # SCRIPT OPTS
 _opt_verbose=0
 _opt_silent=0
