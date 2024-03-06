@@ -119,11 +119,11 @@ function version() {
 # initialize a new obsidian git repo
 function init() {
     if [ "${#_cmd_path}" -eq 0 ]; then
-        error "path argument is missing '${_cmd_path}'"
+        error "path command option is missing '${_cmd_path}'"
     elif [ "${#_cmd_repo}" -eq 0 ]; then
-        error "repo argument is missing '${_cmd_repo}'"
+        error "repo command option is missing '${_cmd_repo}'"
     elif [ "${#_cmd_token}" -eq 0 ]; then
-        error "token argument is missing '${_cmd_token}'"
+        error "token command option is missing '${_cmd_token}'"
     fi
 
     _call_dir=$(pwd)
@@ -151,7 +151,7 @@ function init() {
 # synchronize an initialized obsidian git repo
 function sync() {
     if [[ "${#_cmd_path}" -eq 0 ]]; then
-        error "path argument is missing '${_cmd_path}'"
+        error "path command option is missing '${_cmd_path}'"
     fi
     _call_dir=$(pwd)
     cd "${_cmd_path}"
