@@ -4,13 +4,13 @@ Your favorite Obsidian git synchronisation tool!
 
 **Which commands works**
 
-| Operating System | Setup | Init | Sync | Auto-Sync | Tool-Update |
-|------------------|-------|------|------|-----------|--------|
-| Linux            | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
-| MacOS            | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
-| Windows          | :x: | :x: | :x: | :x: | :x: |
-| Android          | :x: | :x: | :x: | :x: | :x: |
-| iOS / ipadOS     | :x: | :x: | :x: | :x: | :x: |
+| Operating System | Setup | Mount | Init | Sync | Auto-Sync | Tool-Update |
+|:----------------|:-----:|:-----:|:----:|:----:|:---------:|:------:|
+| Linux            | :x: | - | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+| MacOS            | :x: | - | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+| Windows          | :x: | - | :x: | :x: | :x: | :x: |
+| Android          | :x: | - | :x: | :x: | :x: | :x: |
+| iOS / ipadOS     | :x: | :question: | :question: | :question: | :question: | :x: |
 
 *:x: not implemented | :question: functionality untested | :white_check_mark: implemented and tested*
 
@@ -52,6 +52,9 @@ COMMANDS
     --path PATH           (required) Path to Obsidian vault folder.
     --repo URL            (required) Git repository URL.
     --token TOKEN         (required) Git personal access token.
+  mount                 Initialize an obsidian repository.
+    -c | --create         (optional) Create the mount directory if it doesn\'t exist.
+    --mpath PATH          (required) Path for Obsidian app filesystem mount.
   sync                  Synchronize an obsidian repository.
     --path PATH           (required) Path to Obsidian vault folder.
   version               Display obsync version.
