@@ -4,6 +4,7 @@ __name__="obsync"
 __slogan__="Your favorite obsidian git synchronisation tool!"
 __author__="Ralph Dittrich <dittrich.ralph@lupuscoding.de>"
 __version__='0.1.0'
+__ver_sub__="linux / macOS"
 # SCRIPT OPTS
 _opt_verbose=0
 _opt_silent=0
@@ -112,6 +113,7 @@ function version() {
     echo "# - ${__slogan__:0:54}${_space:0:$((54 - ${#__slogan__}))} #"
     echo "#${_space:0:58}#"
     echo "# v${__version__:0:55}${_space:0:$((55 - ${#__version__}))} #"
+    echo "# ${__ver_sub__:0:49}${_space:0:$((49 - ${#__ver_sub__}))} #"
     echo "# ${__author__:0:56}${_space:0:$((56 - ${#__author__}))} #"
     echo "${_border:0:60}"
 }
